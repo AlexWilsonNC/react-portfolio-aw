@@ -1,4 +1,48 @@
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 #myname {
+    text-align: center;
+}
+
+#myname h2 {
     font-size: 46px;
-    font-weight: 400;
+    font-weight: 600;
+    font-style: italic;
+}
+
+form {
+    margin: 25px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+textarea {
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 600px;
+    font-size: 20px;
+    margin: 10px 0px;
+    padding: 5px 0px 5px 15px;
+}
+
+textarea {
+    padding-top: 10px;
+}
+
+button {
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.26);
+    box-shadow: 3px 3px 12px 1px rgba(0, 0, 0, 0.7);
 }

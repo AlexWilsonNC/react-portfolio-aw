@@ -24,7 +24,8 @@
 }
 
 #resume-hr {
-    width: 30%;
+    width: 70%;
+    text-align: center;
 }
 
 #specs {
@@ -38,6 +39,10 @@
     display: flex;
     flex-direction: row;
     padding-bottom: 25px;
+}
+
+#tech-specs ul {
+    padding: 0px;
 }
 
 #tech-specs p {

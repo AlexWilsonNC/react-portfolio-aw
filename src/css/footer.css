@@ -22,6 +22,15 @@
     margin-right: 15px;
 }
 
+.logo {
+    opacity: 0.5; 
+    transition: ease 0.35s; 
+}
+
+.logo:hover {
+    opacity: 1;
+}
+
 #github {
     width: 40px;
 }
