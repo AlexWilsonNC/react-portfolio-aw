@@ -2,22 +2,35 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+#container-section {
+    margin: 75px 0px;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 100px 0px;
+    justify-content: center;
+    max-width: 2;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .card {
-    width: 250px;
-    height: 175px;
+    width: 500px;
+    height: 300px;
     border: 1px solid grey;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
+    margin: 35px;
 }
 
 .card h3 {
     font-size: 36px;
+    width: 100%;
+}
+
+#lambo {
+    width: 300px;
 }

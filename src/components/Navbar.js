@@ -1,6 +1,6 @@
 import React from 'react';
 import './nav.css';
-// import { Link, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 const styles = {
   navContents: {
@@ -13,18 +13,21 @@ const styles = {
 
 function Navbar() {
   return (
-    <nav>
-      <div id="logo">
-        <h1>A<span>W</span></h1>
-      </div>
-      <div id="rightNav">
-        {/* <li><Link to="/">About</Link></li> */}
-        <a href="www.google.com" style={styles.navContents}>About</a>
-        <a href="www.google.com" style={styles.navContents}>Portfolio</a>
-        <a href="www.google.com" style={styles.navContents}>Contact</a>
-        <a href="www.google.com" style={styles.navContents}>Resume</a>
-      </div>
-    </nav>
+    <Router>
+      <nav>
+        <div id="logo">
+          <h1>A<span>W</span></h1>
+        </div>
+        <div id="rightNav">
+          <ul>
+            <li><Link to="./About.js" style={styles.navContents}>About</Link></li>
+            <li><Link to="./Portfolio.js" style={styles.navContents}>Portfolio</Link></li>
+            <li><Link to="./Contact.js" style={styles.navContents}>Contact</Link></li>
+            <li><Link to="./Resume.js" style={styles.navContents}>Resume</Link></li>
+          </ul>
+        </div>
+      </nav>
+    </Router>
   );
 };
 
