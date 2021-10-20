@@ -1,0 +1,26 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;  
+    margin: 105px 0px; 
+}
+
+#main h2 {
+    font-size: 46px;
+    font-style: italic;
+}
+
+#main p {
+    font-size: 26px;
+    width: 70%;
+}
+
+hr {
+    border: 1px solid rgb(165, 165, 165);
+    width: 50%;
+}
