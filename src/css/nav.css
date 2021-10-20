@@ -1,0 +1,52 @@
+* {
+    list-style: none;
+}
+
+#nav {
+    background-color: transparent;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+  
+#logo {
+    float: left;
+}
+
+#logo h1 {
+    font-size: 75px;
+    font-weight: 400;
+}
+
+#logo span {
+    font-size: 50px;
+    color: rgb(150, 0, 0);
+}
+
+#rightNav {
+    float: right;
+}
+
+#rightNav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#rightNav a {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 600;
+}
+
+.active {
+    color: red;
+}
+
+.inactive {
+    color: black;
+}

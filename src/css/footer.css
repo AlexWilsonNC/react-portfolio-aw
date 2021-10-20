@@ -1,0 +1,35 @@
+#footer {
+    width: 100%;
+    background-color: transparent;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px 50px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#foot-left {
+    margin-left: 25px;
+}
+
+#foot-left * {
+    margin-right: 15px;
+}
+
+#github {
+    width: 40px;
+}
+
+#linkedin {
+    width: 39px;
+}
+
+#twitter {
+    width: 41px;
+}

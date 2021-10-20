@@ -1,14 +1,24 @@
 import React from 'react';
-import './footer.css';
-
-const styles = {
-  
-};
+import '../css/footer.css';
+import github from '../assets/github.jpg';
+import linkedin from '../assets/linkedin.jpg';
+import twitter from '../assets/twitter.jpg';
 
 function Footer() {
   return (
     <div id="footer">
-        <p>Thank you!</p>
+      <div id="foot-left">
+        <a href="https://github.com/AlexWilsonNC" target='_'>
+          <img id="github" src={github} />
+        </a>
+        <a href="https://www.linkedin.com/in/alexander-wilson-5661b6218/" target='_'>
+          <img id="linkedin" src={linkedin} />
+        </a>
+        <a href="https://twitter.com/alexwilsonTCG" target='_'>
+          <img id="twitter" src={twitter} />
+        </a>
+      </div>
+      <p>~ thank you</p>
     </div>
   );
 };

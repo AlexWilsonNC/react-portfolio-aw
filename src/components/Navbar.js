@@ -1,33 +1,41 @@
 import React from 'react';
-import './nav.css';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import '../css/nav.css';
 
-const styles = {
-  navContents: {
-    fontSize: '26px',
-    color: '#000',
-    textDecoration: 'none',
-    marginLeft: '30px'
-  }
-};
-
-function Navbar() {
+function Navbar({ currentPage, handlePageChange }) {
   return (
-    <Router>
-      <nav>
-        <div id="logo">
-          <h1>A<span>W</span></h1>
-        </div>
-        <div id="rightNav">
-          <ul>
-            <li><Link to="./About.js" style={styles.navContents}>About</Link></li>
-            <li><Link to="./Portfolio.js" style={styles.navContents}>Portfolio</Link></li>
-            <li><Link to="./Contact.js" style={styles.navContents}>Contact</Link></li>
-            <li><Link to="./Resume.js" style={styles.navContents}>Resume</Link></li>
-          </ul>
-        </div>
-      </nav>
-    </Router>
+    <div id="nav">
+      <div id="logo">
+        <h1>A<span>W</span></h1>
+      </div>
+      <div id="rightNav">
+        <ul>
+          <li>
+            <a href="#about"
+            onClick={() => handlePageChange('About')} 
+            className={currentPage === 'About' ? 'active' : 'inactive'}
+            >About</a>
+          </li>
+          <li>
+            <a href="#portfolio"
+            onClick={() => handlePageChange('Portfolio')} 
+            className={currentPage === 'Portfolio' ? 'active' : 'inactive'}
+            >Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact"
+            onClick={() => handlePageChange('Contact')} 
+            className={currentPage === 'Contact' ? 'active' : 'inactive'}
+            >Contact</a>
+          </li>
+          <li>
+            <a href="#resume"
+            onClick={() => handlePageChange('Resume')} 
+            className={currentPage === 'Resume' ? 'active' : 'inactive'}
+            >Resume</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   );
 };
 

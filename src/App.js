@@ -1,16 +1,12 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Portfolio from './components/Portfolio';
+import Content from './components/Content';
 import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-      <Navbar />
-      {/* <Header /> */}
-      <Portfolio />
+      <Content />
       <Footer />
     </div>
   );

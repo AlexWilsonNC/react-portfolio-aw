@@ -1,0 +1,84 @@
+#downloader {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+#downloader a {
+    text-decoration: none;
+}
+
+.pdf {
+    padding: 1px 15px 1px 15px;
+    border-radius: 5px;
+    transition: ease 0.35s;
+}
+
+.pdf:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.pdf p {
+    font-size: 26px;
+    color: red;
+}
+
+#resume-hr {
+    width: 30%;
+}
+
+#specs {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#tech-specs {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+
+#tech-specs p {
+    text-align: center;
+    width: 70%;
+}
+
+#tech-specs li {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+}
+
+#center li {
+    margin-bottom: 8px;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+}
+
+#right li {
+    margin-bottom: 18px;
+}
+
+#right span {
+    font-style: italic;
+}
