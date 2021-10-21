@@ -32,19 +32,19 @@ function Contact() {
 
     return (
         <section>
-            <div id="myname">
+            <div id='myname'>
                 <h2>Let's Get in Touch</h2>
             </div>
             <hr />
             <form>
                 <div>
-                    <input type="text" name="name" defaultValue={name} onChange={handleChange} placeholder="name" />
+                    <input type='text' name='name' defaultValue={name} onChange={handleChange} placeholder='name' />
                 </div>
                 <div>
-                    <input className="form-control" type="email" name="email" defaultValue={email} onChange={handleChange} placeholder="email" />
+                    <input className='form-control' type='email' name='email' defaultValue={email} onChange={handleChange} placeholder='email' />
                 </div>
                 <div>
-                    <textarea name="message" defaultValue={message} onChange={handleChange} rows="8" placeholder="what do you want to talk about?" />
+                    <textarea name='message' defaultValue={message} onChange={handleChange} rows='8' placeholder='what do you want to talk about?' />
                 </div>
                 {errorMessage && (
                     <div>
@@ -52,7 +52,7 @@ function Contact() {
                     </div>
                 )}
                 <div>
-                    <button data-testid='button' type="submit" onSubmit={handleSubmit}>submit</button>
+                    <button data-testid='button' type='submit' onSubmit={handleSubmit}>submit</button>
                 </div>
             </form>
         </section>
