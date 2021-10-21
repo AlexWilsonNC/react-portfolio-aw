@@ -7,7 +7,7 @@ function Resume() {
             <div id="downloader">
                 <a href='./assets/resume-alex-wilson.pdf' download target="_">
                     <div class="pdf">
-                        <p>Download RESUME.pdf</p>
+                        <p>Download RESUME.docx</p>
                     </div>
                 </a>
             </div>

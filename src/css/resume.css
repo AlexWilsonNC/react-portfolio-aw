@@ -8,19 +8,13 @@
     text-decoration: none;
 }
 
-.pdf {
-    padding: 1px 15px 1px 15px;
-    border-radius: 5px;
-    transition: ease 0.35s;
-}
-
-.pdf:hover {
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.4);
-}
-
 .pdf p {
     font-size: 26px;
     color: red;
+}
+
+.pdf p:hover {
+    color: rgb(138, 0, 0);
 }
 
 #resume-hr {
