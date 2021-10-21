@@ -17,7 +17,7 @@ function Resume() {
                     <div id="left">
                         <h2>Front-End</h2>
                             <p>I love creating concepts from scratch, most of my nights are spent creating new designs just for
-                                practice and pleasure. Creativity aplenty!</p>
+                                practice and pleasure.</p>
                         <hr id="resume-hr" />
                         <ul>
                             <li class="li-specs">HTML & CSS</li>
