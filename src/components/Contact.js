@@ -41,7 +41,7 @@ function Contact() {
                     <input type="text" name="name" defaultValue={name} onChange={handleChange} placeholder="name" />
                 </div>
                 <div>
-                    <input class="form-control" type="email" name="email" defaultValue={email} onChange={handleChange} placeholder="email" />
+                    <input className="form-control" type="email" name="email" defaultValue={email} onChange={handleChange} placeholder="email" />
                 </div>
                 <div>
                     <textarea name="message" defaultValue={message} onChange={handleChange} rows="8" placeholder="what do you want to talk about?" />

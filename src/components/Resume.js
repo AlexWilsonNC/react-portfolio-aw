@@ -20,15 +20,15 @@ function Resume() {
                                 practice and pleasure.</p>
                         <hr id="resume-hr" />
                         <ul>
-                            <li class="li-specs">HTML & CSS</li>
-                            <li class="li-specs">JavaScript</li>
-                            <li class="li-specs">React</li>
-                            <li class="li-specs">Bootstrap</li>
-                            <li class="li-specs">jQuery</li>
-                            <li class="li-specs">Express.js</li>
-                            <li class="li-specs">Bulma</li>
-                            <li class="li-specs">Web APIs</li>
-                            <li class="li-specs">localStorage</li>
+                            <li className="li-specs">HTML & CSS</li>
+                            <li className="li-specs">JavaScript</li>
+                            <li className="li-specs">React</li>
+                            <li className="li-specs">Bootstrap</li>
+                            <li className="li-specs">jQuery</li>
+                            <li className="li-specs">Express.js</li>
+                            <li className="li-specs">Bulma</li>
+                            <li className="li-specs">Web APIs</li>
+                            <li className="li-specs">localStorage</li>
                         </ul>
                     </div>
                     <div id="center">
@@ -37,14 +37,14 @@ function Resume() {
                             quite a few to further my professional career.</p>
                         <hr id="resume-hr" />
                         <ul>
-                            <li class="li-specs">MySQL & Sequelize</li>
-                            <li class="li-specs">Node.js</li>
-                            <li class="li-specs">GraphQL</li>
-                            <li class="li-specs">MongoDB</li>
-                            <li class="li-specs">Wordpress</li>
-                            <li class="li-specs">Server-Side APIs</li>
-                            <li class="li-specs">Jest</li>
-                            <li class="li-specs">Regex</li>
+                            <li className="li-specs">MySQL & Sequelize</li>
+                            <li className="li-specs">Node.js</li>
+                            <li className="li-specs">GraphQL</li>
+                            <li className="li-specs">MongoDB</li>
+                            <li className="li-specs">Wordpress</li>
+                            <li className="li-specs">Server-Side APIs</li>
+                            <li className="li-specs">Jest</li>
+                            <li className="li-specs">Regex</li>
                         </ul>
                     </div>
                     <div id="right">
@@ -53,12 +53,12 @@ function Resume() {
                             as much of it as I can while I'm still kickin'.</p>
                         <hr id="resume-hr" />
                         <ul>
-                            <li class="li-specs">English</li>
-                            <li class="li-specs"><span>"My mother tongue"</span></li>
-                            <li class="li-specs">Spanish</li>
-                            <li class="li-specs"><span>"Conversacional"</span></li>
-                            <li class="li-specs">Japanese</li>
-                            <li class="li-specs"><span>「アドバンスド」</span></li>
+                            <li className="li-specs">English</li>
+                            <li className="li-specs"><span>"My mother tongue"</span></li>
+                            <li className="li-specs">Spanish</li>
+                            <li className="li-specs"><span>"Conversacional"</span></li>
+                            <li className="li-specs">Japanese</li>
+                            <li className="li-specs"><span>「アドバンスド」</span></li>
                         </ul>
                     </div>
                 </div>

@@ -8,13 +8,13 @@ function Footer() {
   return (
     <div id="footer">
       <div id="foot-left">
-        <a class="logo" href="https://github.com/AlexWilsonNC" target='_'>
+        <a className="logo" href="https://github.com/AlexWilsonNC" target='_'>
           <img id="github" src={github} />
         </a>
-        <a class="logo" href="https://www.linkedin.com/in/alexander-wilson-5661b6218/" target='_'>
+        <a className="logo" href="https://www.linkedin.com/in/alexander-wilson-5661b6218/" target='_'>
           <img id="linkedin" src={linkedin} />
         </a>
-        <a class="logo" href="https://twitter.com/alexwilsonTCG" target='_'>
+        <a className="logo" href="https://twitter.com/alexwilsonTCG" target='_'>
           <img id="twitter" src={twitter} />
         </a>
       </div>
