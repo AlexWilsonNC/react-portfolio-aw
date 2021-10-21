@@ -42,3 +42,22 @@
 #twitter {
     width: 41px;
 }
+
+@media screen and (max-width: 500px) {
+    #foot-left * {
+        margin-right: 7.5px;
+    }
+    #github {
+        width: 30px;
+    }
+    #linkedin {
+        width: 29px;
+    }
+    #twitter {
+        width: 31px;
+    }
+    #footer p {
+        font-size: 14px;
+        margin: 0px 25px;
+    }
+}

@@ -50,3 +50,29 @@
 .inactive {
     color: black;
 }
+
+@media screen and (max-width: 650px) {
+    #logo h1 {
+        font-size: 40px;
+    }
+    #logo span {
+        font-size: 25px;
+    }
+    #rightNav a {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #logo {
+        margin-left: 40px;
+    }
+    #rightNav {
+        margin-right: 50px;
+    }
+    #rightNav a {
+        margin-left: 6px;
+        font-size: 12px;
+    }
+}

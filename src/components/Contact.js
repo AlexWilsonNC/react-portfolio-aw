@@ -52,7 +52,7 @@ function Contact() {
                     </div>
                 )}
                 <div>
-                    <button data-testid='button' type="submit" onSubmit={handleSubmit}>Submit</button>
+                    <button data-testid='button' type="submit" onSubmit={handleSubmit}>submit</button>
                 </div>
             </form>
         </section>

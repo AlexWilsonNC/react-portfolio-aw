@@ -61,3 +61,15 @@
     justify-content: space-around;
     width: 60%;
 }
+
+@media screen and (max-width: 650px) {
+    .card {
+        margin: 5px;   
+    }
+    .card h3 {
+        font-size: 32px;
+    }
+    #portfolio-hr {
+        width: 55%;
+    }
+}

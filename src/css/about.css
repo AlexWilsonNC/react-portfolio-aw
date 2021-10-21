@@ -30,3 +30,18 @@ hr {
     border-top: 1.5px solid red;
     width: 50%;
 }
+
+@media screen and (max-width: 650px) {
+    #main {
+        margin: 35px 0px; 
+    }
+    #main img {
+        width: 125px;
+    }
+    #main h2 {
+        font-size: 32px;
+    }
+    #main p {
+        width: 90%;
+    }
+}

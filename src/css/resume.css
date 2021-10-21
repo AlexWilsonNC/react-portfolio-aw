@@ -81,3 +81,18 @@
 #right span {
     font-style: italic;
 }
+
+@media screen and (max-width: 650px) {
+    .pdf p {
+        font-size: 18px;
+    }
+    #tech-specs {
+        flex-direction: column;
+    }
+    #left,
+    #center,
+    #right {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
