@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 2;
+    width: 80%;
     margin: 0 auto;
 }
 
